@@ -1,0 +1,2104 @@
+17:23:13,387  INFO Main:21 - Attempt to read file name
+17:23:16,980  INFO Main:24 - Name read
+17:23:16,993  INFO Main:27 - Try to create output file
+17:23:16,994  INFO Main:29 - Output file created
+17:23:16,994  INFO Main:30 - Try to create context
+17:23:16,995  INFO Main:32 - Context was created
+17:23:16,996  INFO Main:34 - Start of reading file
+17:23:16,996  INFO Main:36 - The line was read
+17:23:16,999  INFO Main:38 - New Command factory created
+17:23:16,999  INFO Main:40 - The command name was read
+17:23:17,003  INFO Main:44 - The command Define was created
+17:23:17,003  INFO Main:47 - Try to create math interpretation of command Define
+17:23:17,011 ERROR Main:52 - Exception:
+nsu.dasha.labs.Exception.NotEnoughArgs: Not enough arguments!
+	at nsu.dasha.labs.Define.mathInterpretation(Define.java:10)
+	at nsu.dasha.labs.Main.main(Main.java:48)
+17:23:17,013  INFO Main:36 - The line was read
+17:23:17,013  INFO Main:38 - New Command factory created
+17:23:17,013  INFO Main:40 - The command name was read
+17:23:17,016  INFO Main:44 - The command Push was created
+17:23:17,016  INFO Main:47 - Try to create math interpretation of command Push
+17:23:17,016  INFO Main:49 - The math interpretation of Pushwas created
+17:23:17,016  INFO Main:36 - The line was read
+17:23:17,016  INFO Main:38 - New Command factory created
+17:23:17,017  INFO Main:40 - The command name was read
+17:23:17,017  INFO Main:44 - The command Sqrt was created
+17:23:17,018  INFO Main:47 - Try to create math interpretation of command Sqrt
+17:23:17,018 ERROR Main:52 - Exception:
+nsu.dasha.labs.Exception.ScriptExceptions: Stack is empty
+	at nsu.dasha.labs.Context.popStackValue(Context.java:36)
+	at nsu.dasha.labs.Sqrt.mathInterpretation(Sqrt.java:12)
+	at nsu.dasha.labs.Main.main(Main.java:48)
+Caused by: java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at java.base/java.util.Stack.pop(Stack.java:83)
+	at nsu.dasha.labs.Context.popStackValue(Context.java:33)
+	... 2 more
+17:23:17,018  INFO Main:36 - The line was read
+17:23:17,018  INFO Main:38 - New Command factory created
+17:23:17,019  INFO Main:40 - The command name was read
+17:23:17,019  INFO Main:44 - The command Print was created
+17:23:17,019  INFO Main:47 - Try to create math interpretation of command Print
+17:23:17,019 ERROR Main:52 - Exception:
+nsu.dasha.labs.Exception.ScriptExceptions: Stack is empty
+	at nsu.dasha.labs.Context.peekStack(Context.java:68)
+	at nsu.dasha.labs.Print.mathInterpretation(Print.java:7)
+	at nsu.dasha.labs.Main.main(Main.java:48)
+Caused by: java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at nsu.dasha.labs.Context.peekStack(Context.java:66)
+	... 2 more
+17:31:59,165  INFO Main:21 - Attempt to read file name
+17:32:02,390  INFO Main:24 - Name read
+17:32:02,404  INFO Main:27 - Try to create output file
+17:32:02,405  INFO Main:29 - Output file created
+17:32:02,405  INFO Main:30 - Try to create context
+17:32:02,407  INFO Main:32 - Context was created
+17:32:02,407  INFO Main:34 - Start of reading file
+17:32:02,407  INFO Main:36 - The line was read
+17:32:02,410  INFO Main:38 - New Command factory created
+17:32:02,410  INFO Main:40 - The command name was read
+17:32:02,413  INFO Main:44 - The command Define was created
+17:32:02,414  INFO Main:47 - Try to create math interpretation of command Define
+17:32:02,415 ERROR Main:52 - Exception:
+nsu.dasha.labs.Exception.NotEnoughArgs: Not enough arguments!
+	at nsu.dasha.labs.Define.mathInterpretation(Define.java:10)
+	at nsu.dasha.labs.Main.main(Main.java:48)
+17:32:02,416  INFO Main:36 - The line was read
+17:32:02,416  INFO Main:38 - New Command factory created
+17:32:02,416  INFO Main:40 - The command name was read
+17:32:02,418  INFO Main:44 - The command Push was created
+17:32:02,419  INFO Main:47 - Try to create math interpretation of command Push
+17:32:02,419  INFO Main:49 - The math interpretation of Pushwas created
+17:32:02,419  INFO Main:36 - The line was read
+17:32:02,419  INFO Main:38 - New Command factory created
+17:32:02,419  INFO Main:40 - The command name was read
+17:32:02,420  INFO Main:44 - The command Sqrt was created
+17:32:02,420  INFO Main:47 - Try to create math interpretation of command Sqrt
+17:32:02,420 ERROR Main:52 - Exception:
+nsu.dasha.labs.Exception.ScriptExceptions: Stack is empty
+	at nsu.dasha.labs.Context.popStackValue(Context.java:36)
+	at nsu.dasha.labs.Sqrt.mathInterpretation(Sqrt.java:12)
+	at nsu.dasha.labs.Main.main(Main.java:48)
+Caused by: java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at java.base/java.util.Stack.pop(Stack.java:83)
+	at nsu.dasha.labs.Context.popStackValue(Context.java:33)
+	... 2 more
+17:32:02,421  INFO Main:36 - The line was read
+17:32:02,421  INFO Main:38 - New Command factory created
+17:32:02,421  INFO Main:40 - The command name was read
+17:32:02,422  INFO Main:44 - The command Print was created
+17:32:02,422  INFO Main:47 - Try to create math interpretation of command Print
+17:32:02,422 ERROR Main:52 - Exception:
+nsu.dasha.labs.Exception.ScriptExceptions: Stack is empty
+	at nsu.dasha.labs.Context.peekStack(Context.java:68)
+	at nsu.dasha.labs.Print.mathInterpretation(Print.java:7)
+	at nsu.dasha.labs.Main.main(Main.java:48)
+Caused by: java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at nsu.dasha.labs.Context.peekStack(Context.java:66)
+	... 2 more
+18:20:25,277  INFO Main:20 - Attempt to read file name
+18:20:31,030  INFO Main:23 - Name read
+18:20:31,044  INFO Main:26 - Try to create output file
+18:20:31,045  INFO Main:28 - Output file created
+18:20:31,045  INFO Main:29 - Try to create context
+18:20:31,058  INFO Main:31 - Context was created
+18:20:31,058  INFO Main:33 - Start of reading file
+18:20:31,059  INFO Main:35 - The line was read
+18:20:31,077  INFO Main:37 - New Command factory created
+18:20:31,078  INFO Main:39 - The command name was read
+18:20:31,088  INFO Main:44 - The command Define was created
+18:20:31,090  INFO Main:46 - Try to create math interpretation of command Define
+18:20:31,091 ERROR Main:51 - Exception:
+nsu.dasha.labs.Exception.NotEnoughArgs: Not enough arguments!
+	at nsu.dasha.labs.Define.calculate(Define.java:10)
+	at nsu.dasha.labs.Main.main(Main.java:47)
+18:20:31,093  INFO Main:35 - The line was read
+18:20:31,093  INFO Main:37 - New Command factory created
+18:20:31,093  INFO Main:39 - The command name was read
+18:20:31,104  INFO Main:44 - The command Push was created
+18:20:31,104  INFO Main:46 - Try to create math interpretation of command Push
+18:20:31,105  INFO Main:48 - The math interpretation of Pushwas created
+18:20:31,105  INFO Main:35 - The line was read
+18:20:31,105  INFO Main:37 - New Command factory created
+18:20:31,105  INFO Main:39 - The command name was read
+18:20:31,121  INFO Main:44 - The command Sqrt was created
+18:20:31,121  INFO Main:46 - Try to create math interpretation of command Sqrt
+18:20:31,121 ERROR Main:51 - Exception:
+nsu.dasha.labs.Exception.ScriptExceptions: Stack is empty
+	at nsu.dasha.labs.Context.popStackValue(Context.java:35)
+	at nsu.dasha.labs.Sqrt.calculate(Sqrt.java:13)
+	at nsu.dasha.labs.Main.main(Main.java:47)
+Caused by: java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at java.base/java.util.Stack.pop(Stack.java:83)
+	at nsu.dasha.labs.Context.popStackValue(Context.java:33)
+	... 2 more
+18:20:31,122  INFO Main:35 - The line was read
+18:20:31,122  INFO Main:37 - New Command factory created
+18:20:31,122  INFO Main:39 - The command name was read
+18:20:31,129  INFO Main:44 - The command Print was created
+18:20:31,129  INFO Main:46 - Try to create math interpretation of command Print
+18:20:31,130 ERROR Main:51 - Exception:
+nsu.dasha.labs.Exception.ScriptExceptions: Stack is empty
+	at nsu.dasha.labs.Context.peekStack(Context.java:67)
+	at nsu.dasha.labs.Print.calculate(Print.java:8)
+	at nsu.dasha.labs.Main.main(Main.java:47)
+Caused by: java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at nsu.dasha.labs.Context.peekStack(Context.java:65)
+	... 2 more
+18:20:51,280  INFO Main:20 - Attempt to read file name
+18:20:54,693  INFO Main:23 - Name read
+18:20:54,718  INFO Main:26 - Try to create output file
+18:20:54,718  INFO Main:28 - Output file created
+18:20:54,718  INFO Main:29 - Try to create context
+18:20:54,720  INFO Main:31 - Context was created
+18:20:54,720  INFO Main:33 - Start of reading file
+18:20:54,721  INFO Main:35 - The line was read
+18:20:54,723  INFO Main:37 - New Command factory created
+18:20:54,723  INFO Main:39 - The command name was read
+18:20:54,726  INFO Main:44 - The command Define was created
+18:20:54,727  INFO Main:46 - Try to create math interpretation of command Define
+18:20:54,728  INFO Main:48 - The math interpretation of Definewas created
+18:20:54,728  INFO Main:35 - The line was read
+18:20:54,728  INFO Main:37 - New Command factory created
+18:20:54,728  INFO Main:39 - The command name was read
+18:20:54,730  INFO Main:44 - The command Push was created
+18:20:54,730  INFO Main:46 - Try to create math interpretation of command Push
+18:20:54,731  INFO Main:48 - The math interpretation of Pushwas created
+18:20:54,732  INFO Main:35 - The line was read
+18:20:54,732  INFO Main:37 - New Command factory created
+18:20:54,732  INFO Main:39 - The command name was read
+18:20:54,733  INFO Main:44 - The command Sqrt was created
+18:20:54,733  INFO Main:46 - Try to create math interpretation of command Sqrt
+18:20:54,733  INFO Main:48 - The math interpretation of Sqrtwas created
+18:20:54,733  INFO Main:35 - The line was read
+18:20:54,733  INFO Main:37 - New Command factory created
+18:20:54,733  INFO Main:39 - The command name was read
+18:20:54,734  INFO Main:44 - The command Print was created
+18:20:54,734  INFO Main:46 - Try to create math interpretation of command Print
+18:20:54,734  INFO Main:48 - The math interpretation of Printwas created
+19:07:43,744  INFO Main:20 - Attempt to read file name
+19:07:45,996  INFO Main:23 - Name read
+19:07:46,016  INFO Main:26 - Try to create output file
+19:07:46,016  INFO Main:28 - Output file created
+19:07:46,017  INFO Main:29 - Try to create context
+19:07:46,019  INFO Main:31 - Context was created
+19:07:46,019  INFO Main:33 - Start of reading file
+19:07:46,020  INFO Main:35 - The line was read
+19:07:46,025  INFO Main:37 - New Command factory created
+19:07:46,025  INFO Main:39 - The command name was read
+19:07:46,039  INFO Main:44 - The command Define was created
+19:07:46,040  INFO Main:46 - Try to create math interpretation of command Define
+19:07:46,041  INFO Main:48 - The math interpretation of Definewas created
+19:07:46,042  INFO Main:35 - The line was read
+19:07:46,042  INFO Main:37 - New Command factory created
+19:07:46,042  INFO Main:39 - The command name was read
+19:07:46,047  INFO Main:44 - The command Push was created
+19:07:46,047  INFO Main:46 - Try to create math interpretation of command Push
+19:07:46,048  INFO Main:48 - The math interpretation of Pushwas created
+19:07:46,048  INFO Main:35 - The line was read
+19:07:46,049  INFO Main:37 - New Command factory created
+19:07:46,049  INFO Main:39 - The command name was read
+19:07:46,051  INFO Main:44 - The command Sqrt was created
+19:07:46,051  INFO Main:46 - Try to create math interpretation of command Sqrt
+19:07:46,051  INFO Main:48 - The math interpretation of Sqrtwas created
+19:07:46,051  INFO Main:35 - The line was read
+19:07:46,051  INFO Main:37 - New Command factory created
+19:07:46,052  INFO Main:39 - The command name was read
+19:07:46,053  INFO Main:44 - The command Print was created
+19:07:46,053  INFO Main:46 - Try to create math interpretation of command Print
+19:07:46,053  INFO Main:48 - The math interpretation of Printwas created
+19:35:18,626  INFO Main:20 - Attempt to read file name
+19:35:21,410  INFO Main:23 - Name read
+19:35:21,428  INFO Main:26 - Try to create output file
+19:35:21,428  INFO Main:28 - Output file created
+19:35:21,429  INFO Main:29 - Try to create context
+19:35:21,431  INFO Main:31 - Context was created
+19:35:21,431  INFO Main:33 - Start of reading file
+19:35:21,432  INFO Main:35 - The line was read
+19:35:21,437  INFO Main:37 - New Command factory created
+19:35:21,438  INFO Main:39 - The command name was read
+19:35:21,452  INFO Main:44 - The command Define was created
+19:35:21,453  INFO Main:46 - Try to create math interpretation of command Define
+19:35:21,454  INFO Main:48 - The math interpretation of Definewas created
+19:35:21,455  INFO Main:35 - The line was read
+19:35:21,455  INFO Main:37 - New Command factory created
+19:35:21,455  INFO Main:39 - The command name was read
+19:35:21,469  INFO Main:44 - The command Push was created
+19:35:21,469  INFO Main:46 - Try to create math interpretation of command Push
+19:35:21,469  INFO Main:48 - The math interpretation of Pushwas created
+19:35:21,469  INFO Main:35 - The line was read
+19:35:21,469  INFO Main:37 - New Command factory created
+19:35:21,469  INFO Main:39 - The command name was read
+19:35:21,481  INFO Main:44 - The command Sqrt was created
+19:35:21,481  INFO Main:46 - Try to create math interpretation of command Sqrt
+19:35:21,481  INFO Main:48 - The math interpretation of Sqrtwas created
+19:35:21,482  INFO Main:35 - The line was read
+19:35:21,482  INFO Main:37 - New Command factory created
+19:35:21,482  INFO Main:39 - The command name was read
+19:35:21,492  INFO Main:44 - The command Print was created
+19:35:21,492  INFO Main:46 - Try to create math interpretation of command Print
+19:35:21,494  INFO Main:48 - The math interpretation of Printwas created
+22:32:24,064  INFO Main:23 - Attempt to read file name
+22:32:27,815  INFO Main:26 - Read fileName: еук
+22:32:27,827 ERROR Main:39 - FileNotFoundException
+22:32:27,828  INFO Main:23 - Attempt to read file name
+22:32:29,912  INFO Main:26 - Read fileName: test
+22:32:29,941  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+22:32:29,962  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+22:32:29,965  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+22:32:29,969  INFO Context:49 - Put into map pair (a1, 4,000000).
+22:32:29,982  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+22:32:29,984  INFO Context:29 - Pushed 4.0 into stack.
+22:32:30,006  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+22:32:30,007  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+22:32:30,007  INFO Sqrt:25 - Trying to pushStackValue.
+22:32:30,007  INFO Context:29 - Pushed 2.0 into stack.
+22:32:30,020  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+22:32:30,022  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+22:32:30,023  INFO Print:17 - Trying to printLastInStack.
+22:32:30,023  INFO Main:44 - EOFException
+22:35:25,420  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+22:35:25,429  INFO Context:29 - Pushed 5.0 into stack.
+22:35:25,442 ERROR Context:36 - Stack is empty. 
+java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at java.base/java.util.Stack.pop(Stack.java:83)
+	at nsu.dasha.labs.Context.popStackValue(Context.java:34)
+	at ContextTest.lambda$testPop$3(ContextTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at ContextTest.testPop(ContextTest.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+22:35:25,483  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+22:35:25,484  INFO Context:29 - Pushed 5.0 into stack.
+22:35:25,490  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+22:35:25,491  INFO Context:29 - Pushed 5.0 into stack.
+22:35:25,497  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+22:35:25,508  INFO Context:49 - Put into map pair (a, 2,000000).
+22:35:25,509  INFO Context:29 - Pushed 2.0 into stack.
+22:44:40,027  INFO Main:23 - Attempt to read file name
+22:44:42,548  INFO Main:26 - Read fileName: ter
+22:44:42,568 ERROR Main:39 - FileNotFoundException
+22:44:42,568  INFO Main:23 - Attempt to read file name
+22:44:45,318  INFO Main:26 - Read fileName: teast
+22:44:45,318 ERROR Main:39 - FileNotFoundException
+22:44:45,319  INFO Main:23 - Attempt to read file name
+22:44:47,412  INFO Main:26 - Read fileName: teast
+22:44:47,417 ERROR Main:39 - FileNotFoundException
+22:44:47,417  INFO Main:23 - Attempt to read file name
+22:44:49,334  INFO Main:26 - Read fileName: test
+22:44:49,373  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+22:44:49,373  INFO Main:23 - Attempt to read file name
+22:46:26,866  INFO Main:23 - Attempt to read file name
+22:46:43,342  INFO Main:26 - Read fileName: test
+22:46:46,029 ERROR ReadFile:19 - FileIsEmptyException
+22:47:50,714 ERROR Main:41 - FileIsEmptyException
+22:47:57,896  INFO Main:23 - Attempt to read file name
+22:48:04,919  INFO Main:26 - Read fileName: test
+22:48:17,198 ERROR ReadFile:19 - FileIsEmptyException
+22:48:17,199 ERROR Main:41 - FileIsEmptyException
+22:48:21,274  INFO Main:23 - Attempt to read file name
+22:48:23,877  INFO Main:26 - Read fileName: test
+22:48:23,906  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+22:48:23,906  INFO Main:23 - Attempt to read file name
+22:49:18,197  INFO Main:23 - Attempt to read file name
+22:49:21,107  INFO Main:26 - Read fileName: test
+22:49:21,135  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+22:49:21,157  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+22:49:21,157  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+22:49:21,161  INFO Context:49 - Put into map pair (a1, 4,000000).
+22:49:21,176  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+22:49:21,178  INFO Context:29 - Pushed 4.0 into stack.
+22:49:21,201  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+22:49:21,201  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+22:49:21,201  INFO Sqrt:25 - Trying to pushStackValue.
+22:49:21,202  INFO Context:29 - Pushed 2.0 into stack.
+22:49:21,214  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+22:49:21,215  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+22:49:21,215  INFO Print:17 - Trying to printLastInStack.
+22:49:21,216  INFO Main:23 - Attempt to read file name
+22:50:02,074  INFO Main:23 - Attempt to read file name
+22:50:07,872  INFO Main:26 - Read fileName: test
+22:51:04,061  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+22:51:13,165  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+22:51:14,179  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+22:51:14,202  INFO Context:49 - Put into map pair (a1, 4,000000).
+22:51:25,031  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+22:51:25,046  INFO Context:29 - Pushed 4.0 into stack.
+22:51:25,056  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+22:51:25,062  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+22:51:25,062  INFO Sqrt:25 - Trying to pushStackValue.
+22:51:25,063  INFO Context:29 - Pushed 2.0 into stack.
+22:51:25,068  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+22:51:25,070  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+22:51:25,070  INFO Print:17 - Trying to printLastInStack.
+22:51:25,071  INFO Main:23 - Attempt to read file name
+22:51:29,506  INFO Main:23 - Attempt to read file name
+22:51:33,010  INFO Main:26 - Read fileName: test
+22:51:33,030  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+22:51:33,032  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+22:51:33,033  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+22:51:33,036  INFO Context:49 - Put into map pair (a1, 4,000000).
+22:51:33,040  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+22:51:33,042  INFO Context:29 - Pushed 4.0 into stack.
+22:51:33,044  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+22:51:33,045  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+22:51:33,045  INFO Sqrt:25 - Trying to pushStackValue.
+22:51:33,045  INFO Context:29 - Pushed 2.0 into stack.
+22:51:33,046  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+22:51:33,047  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+22:51:33,047  INFO Print:17 - Trying to printLastInStack.
+22:55:17,065  INFO Main:23 - Attempt to read file name
+22:55:23,232  INFO Main:26 - Read fileName: test
+22:55:23,269  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+22:55:23,271  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+22:55:23,272  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+22:55:23,276  INFO Context:49 - Put into map pair (a1, 4,000000).
+22:55:23,279  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+22:55:23,282  INFO Context:29 - Pushed 4.0 into stack.
+22:55:23,285  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+22:55:23,285  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+22:55:23,285  INFO Sqrt:25 - Trying to pushStackValue.
+22:55:23,285  INFO Context:29 - Pushed 2.0 into stack.
+22:55:23,287  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+22:55:23,287  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+22:55:23,288  INFO Print:17 - Trying to printLastInStack.
+00:31:34,842  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:31:34,852  INFO Context:29 - Pushed 5.0 into stack.
+00:31:34,867 ERROR Context:36 - Stack is empty. 
+java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at java.base/java.util.Stack.pop(Stack.java:83)
+	at nsu.dasha.labs.Context.popStackValue(Context.java:34)
+	at ContextTest.lambda$testPop$3(ContextTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at ContextTest.testPop(ContextTest.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+00:31:34,896  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:31:34,896  INFO Context:29 - Pushed 5.0 into stack.
+00:31:34,902  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:31:34,902  INFO Context:29 - Pushed 5.0 into stack.
+00:31:34,908  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:31:34,919  INFO Context:49 - Put into map pair (a, 2,000000).
+00:31:34,919  INFO Context:29 - Pushed 2.0 into stack.
+00:36:51,372  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:36:51,381  INFO Context:29 - Pushed 5.0 into stack.
+00:36:51,392 ERROR Context:36 - Stack is empty. 
+java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at java.base/java.util.Stack.pop(Stack.java:83)
+	at nsu.dasha.labs.Context.popStackValue(Context.java:34)
+	at ContextTest.lambda$testPop$3(ContextTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at ContextTest.testPop(ContextTest.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+00:36:51,427  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:36:51,427  INFO Context:29 - Pushed 5.0 into stack.
+00:36:51,434  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:36:51,435  INFO Context:29 - Pushed 5.0 into stack.
+00:36:51,440  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:36:51,451  INFO Context:49 - Put into map pair (a, 2,000000).
+00:36:51,451  INFO Context:29 - Pushed 2.0 into stack.
+00:36:57,127  INFO Main:23 - Attempt to read file name
+00:36:59,870  INFO Main:26 - Read fileName: test
+00:36:59,888  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:36:59,890  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+00:36:59,890  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+00:36:59,893  INFO Context:49 - Put into map pair (a1, 4,000000).
+00:36:59,897  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+00:36:59,900  INFO Context:29 - Pushed 4.0 into stack.
+00:36:59,902  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+00:36:59,903  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+00:36:59,903  INFO Sqrt:25 - Trying to pushStackValue.
+00:36:59,903  INFO Context:29 - Pushed 2.0 into stack.
+00:36:59,905  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+00:36:59,905  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+00:36:59,906  INFO Print:17 - Trying to printLastInStack.
+00:47:36,929  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:47:36,938  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+00:47:36,942  INFO Context:29 - Pushed 5.0 into stack.
+00:48:58,406  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:48:58,415  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+00:48:58,422  INFO Context:29 - Pushed 5.0 into stack.
+00:48:58,495  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:48:58,496  INFO Context:29 - Pushed 5.0 into stack.
+00:48:58,502 ERROR Context:36 - Stack is empty. 
+java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at java.base/java.util.Stack.pop(Stack.java:83)
+	at nsu.dasha.labs.Context.popStackValue(Context.java:34)
+	at ContextTest.lambda$testPop$3(ContextTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at ContextTest.testPop(ContextTest.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+00:48:58,521  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:48:58,522  INFO Context:29 - Pushed 5.0 into stack.
+00:48:58,530  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:48:58,531  INFO Context:29 - Pushed 5.0 into stack.
+00:48:58,536  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:48:58,538  INFO Context:49 - Put into map pair (a, 2,000000).
+00:48:58,539  INFO Context:29 - Pushed 2.0 into stack.
+00:54:01,541  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:54:01,551  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+00:54:01,555  INFO Context:29 - Pushed 5.0 into stack.
+00:54:49,097  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:54:49,106  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+00:54:49,110  INFO Context:29 - Pushed 5.0 into stack.
+00:55:38,200  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:55:38,209  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+00:55:38,214  INFO Context:29 - Pushed 5.0 into stack.
+00:56:29,974  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:56:29,982  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+00:56:29,987  INFO Context:29 - Pushed 5.0 into stack.
+00:57:00,658  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:57:00,666  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+00:57:00,671  INFO Context:29 - Pushed 5.0 into stack.
+00:58:04,806  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:58:04,814  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+00:58:04,819  INFO Context:29 - Pushed 5.0 into stack.
+00:58:04,834  INFO Context:29 - Pushed 1.0 into stack.
+00:59:57,985  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+00:59:57,992  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+00:59:57,996  INFO Context:29 - Pushed 5.0 into stack.
+00:59:58,010  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+00:59:58,012  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+00:59:58,021  INFO Context:49 - Put into map pair (a1, 5,000000).
+00:59:58,022  INFO Context:29 - Pushed 5.0 into stack.
+01:03:39,488  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:03:39,496  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+01:03:39,499  INFO Context:29 - Pushed 5.0 into stack.
+01:03:39,513  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+01:03:39,514  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:03:39,522  INFO Context:49 - Put into map pair (a1, 5,000000).
+01:03:39,523  INFO Context:29 - Pushed 5.0 into stack.
+01:03:52,317  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:03:52,328  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+01:03:52,329  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:03:52,343  INFO Context:49 - Put into map pair (a1, 5,000000).
+01:05:54,969  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:05:54,978  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+01:05:54,980  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:05:54,993  INFO Context:49 - Put into map pair (a1, 5,000000).
+01:05:55,005  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:05:55,006  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:05:55,007  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:05:55,009 ERROR Define:29 - Couldn't cast a to double
+01:09:53,145  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:09:53,153  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+01:09:53,154  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:09:53,165  INFO Context:49 - Put into map pair (a1, 5,000000).
+01:09:53,176  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:09:53,177  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:10:25,147  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:10:25,155  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+01:10:25,160  INFO Context:29 - Pushed 5.0 into stack.
+01:10:25,208  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+01:10:25,210  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:10:25,215  INFO Context:49 - Put into map pair (a1, 5,000000).
+01:10:25,216  INFO Context:29 - Pushed 5.0 into stack.
+01:10:25,255  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:10:25,256  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+01:10:25,257  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:10:25,259  INFO Context:49 - Put into map pair (a1, 5,000000).
+01:10:25,261  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:10:25,262  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:10:25,274  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:10:25,275  INFO Context:29 - Pushed 5.0 into stack.
+01:10:25,282 ERROR Context:36 - Stack is empty. 
+java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at java.base/java.util.Stack.pop(Stack.java:83)
+	at nsu.dasha.labs.Context.popStackValue(Context.java:34)
+	at ContextTest.lambda$testPop$3(ContextTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at ContextTest.testPop(ContextTest.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+01:10:25,300  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:10:25,300  INFO Context:29 - Pushed 5.0 into stack.
+01:10:25,305  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:10:25,306  INFO Context:29 - Pushed 5.0 into stack.
+01:10:25,311  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:10:25,312  INFO Context:49 - Put into map pair (a, 2,000000).
+01:10:25,313  INFO Context:29 - Pushed 2.0 into stack.
+01:16:37,180  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:16:37,185  INFO Pop:11 - The command nsu.dasha.labs.command.Pop was created.
+01:16:37,191  INFO Pop:16 - Trying to calculate into nsu.dasha.labs.command.Pop
+01:16:37,191  INFO Pop:17 - Trying to popStackValue.
+01:16:37,193 ERROR Context:36 - Stack is empty. 
+java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at java.base/java.util.Stack.pop(Stack.java:83)
+	at nsu.dasha.labs.Context.popStackValue(Context.java:34)
+	at nsu.dasha.labs.command.Pop.calculate(Pop.java:19)
+	at CommandTests.lambda$testPop$2(CommandTests.java:39)
+	at org.junit.Assert.assertThrows(Assert.java:1001)
+	at org.junit.Assert.assertThrows(Assert.java:981)
+	at CommandTests.testPop(CommandTests.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+01:19:13,222  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:19:13,227  INFO Pop:11 - The command nsu.dasha.labs.command.Pop was created.
+01:19:13,232  INFO Pop:16 - Trying to calculate into nsu.dasha.labs.command.Pop
+01:19:13,232  INFO Pop:17 - Trying to popStackValue.
+01:19:13,234 ERROR Context:36 - Stack is empty. 
+java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at java.base/java.util.Stack.pop(Stack.java:83)
+	at nsu.dasha.labs.Context.popStackValue(Context.java:34)
+	at nsu.dasha.labs.command.Pop.calculate(Pop.java:19)
+	at CommandTests.lambda$testPop$2(CommandTests.java:38)
+	at org.junit.Assert.assertThrows(Assert.java:1001)
+	at org.junit.Assert.assertThrows(Assert.java:981)
+	at CommandTests.testPop(CommandTests.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+01:19:13,242  INFO Context:29 - Pushed 5.0 into stack.
+01:19:13,242  INFO Pop:16 - Trying to calculate into nsu.dasha.labs.command.Pop
+01:19:13,242  INFO Pop:17 - Trying to popStackValue.
+01:19:13,243 ERROR Context:36 - Stack is empty. 
+java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at java.base/java.util.Stack.pop(Stack.java:83)
+	at nsu.dasha.labs.Context.popStackValue(Context.java:34)
+	at CommandTests.testPop(CommandTests.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+01:23:45,110  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:23:45,116  INFO Pop:11 - The command nsu.dasha.labs.command.Pop was created.
+01:23:45,121  INFO Pop:16 - Trying to calculate into nsu.dasha.labs.command.Pop
+01:23:45,122  INFO Pop:17 - Trying to popStackValue.
+01:23:45,123 ERROR Context:36 - Stack is empty. 
+java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at java.base/java.util.Stack.pop(Stack.java:83)
+	at nsu.dasha.labs.Context.popStackValue(Context.java:34)
+	at nsu.dasha.labs.command.Pop.calculate(Pop.java:19)
+	at CommandTests.lambda$testPop$2(CommandTests.java:38)
+	at org.junit.Assert.assertThrows(Assert.java:1001)
+	at org.junit.Assert.assertThrows(Assert.java:981)
+	at CommandTests.testPop(CommandTests.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+01:23:45,132  INFO Context:29 - Pushed 5.0 into stack.
+01:23:45,132  INFO Pop:16 - Trying to calculate into nsu.dasha.labs.command.Pop
+01:23:45,133  INFO Pop:17 - Trying to popStackValue.
+01:23:45,134 ERROR Context:36 - Stack is empty. 
+java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at java.base/java.util.Stack.pop(Stack.java:83)
+	at nsu.dasha.labs.Context.popStackValue(Context.java:34)
+	at org.junit.Assert.assertThrows(Assert.java:1001)
+	at org.junit.Assert.assertThrows(Assert.java:981)
+	at CommandTests.testPop(CommandTests.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+01:26:25,838  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:26:25,847  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+01:26:25,849  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:26:25,865  INFO Context:49 - Put into map pair (a1, 5,000000).
+01:26:25,880  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:26:25,882  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:28:54,052  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:28:54,059  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+01:28:54,067  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:28:54,078  INFO Context:49 - Put into map pair (a1, 5,000000).
+01:28:54,079  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:28:54,087  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:28:54,088  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:29:30,686  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:29:30,693  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+01:29:30,700  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:29:30,712  INFO Context:49 - Put into map pair (a1, 5,000000).
+01:29:30,718  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:29:30,719  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:32:44,155  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:32:44,164  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+01:32:44,168  INFO Context:29 - Pushed -1.0 into stack.
+01:32:44,174  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+01:37:32,578  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:37:32,588  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+01:37:32,593  INFO Context:29 - Pushed -1.0 into stack.
+01:37:32,600  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+01:37:32,601  INFO Context:29 - Pushed 4.0 into stack.
+01:37:32,610  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+01:37:32,611  INFO Sqrt:25 - Trying to pushStackValue.
+01:37:32,611  INFO Context:29 - Pushed 2.0 into stack.
+01:40:49,437  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:40:49,444  INFO Subtraction:11 - The command nsu.dasha.labs.command.Subtraction was created.
+01:40:49,448  INFO Context:29 - Pushed -1.0 into stack.
+01:40:49,449  INFO Context:29 - Pushed 10.0 into stack.
+01:40:49,457  INFO Subtraction:16 - Trying to calculate into nsu.dasha.labs.command.Subtraction
+01:40:49,465  INFO Subtraction:21 - Trying to sub 10.0 and -1.0.
+01:40:49,466  INFO Context:29 - Pushed 11.0 into stack.
+01:41:17,853  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:41:17,861  INFO Subtraction:11 - The command nsu.dasha.labs.command.Subtraction was created.
+01:41:17,865  INFO Context:29 - Pushed -1.0 into stack.
+01:41:17,866  INFO Context:29 - Pushed 10.0 into stack.
+01:41:17,873  INFO Subtraction:16 - Trying to calculate into nsu.dasha.labs.command.Subtraction
+01:41:17,882  INFO Subtraction:21 - Trying to sub 10.0 and -1.0.
+01:41:17,883  INFO Context:29 - Pushed 11.0 into stack.
+01:42:11,993  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:42:12,000  INFO Subtraction:11 - The command nsu.dasha.labs.command.Subtraction was created.
+01:42:12,005  INFO Context:29 - Pushed 9.0 into stack.
+01:42:12,006  INFO Context:29 - Pushed 10.0 into stack.
+01:42:12,016  INFO Subtraction:16 - Trying to calculate into nsu.dasha.labs.command.Subtraction
+01:42:12,026  INFO Subtraction:21 - Trying to sub 10.0 and 9.0.
+01:42:12,027  INFO Context:29 - Pushed 1.0 into stack.
+01:43:37,650  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:43:37,656  INFO Subtraction:11 - The command nsu.dasha.labs.command.Subtraction was created.
+01:43:37,659  INFO Context:29 - Pushed 12.0 into stack.
+01:43:37,660  INFO Context:29 - Pushed 10.0 into stack.
+01:43:37,667  INFO Subtraction:16 - Trying to calculate into nsu.dasha.labs.command.Subtraction
+01:43:37,673  INFO Subtraction:21 - Trying to sub 10.0 and 12.0.
+01:43:37,674  INFO Context:29 - Pushed -2.0 into stack.
+01:44:36,862  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:44:36,869  INFO Subtraction:11 - The command nsu.dasha.labs.command.Subtraction was created.
+01:44:36,874  INFO Context:29 - Pushed 12.0 into stack.
+01:44:36,875  INFO Context:29 - Pushed 10.0 into stack.
+01:44:36,876  INFO Context:29 - Pushed -2.0 into stack.
+01:44:36,877  INFO Context:29 - Pushed -15.0 into stack.
+01:44:36,888  INFO Subtraction:16 - Trying to calculate into nsu.dasha.labs.command.Subtraction
+01:44:36,898  INFO Subtraction:21 - Trying to sub -15.0 and -2.0.
+01:44:36,898  INFO Context:29 - Pushed -13.0 into stack.
+01:44:53,229  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:44:53,233  INFO Subtraction:11 - The command nsu.dasha.labs.command.Subtraction was created.
+01:44:53,236  INFO Context:29 - Pushed 12.0 into stack.
+01:44:53,237  INFO Context:29 - Pushed 10.0 into stack.
+01:44:53,237  INFO Context:29 - Pushed -2.0 into stack.
+01:44:53,238  INFO Context:29 - Pushed -15.0 into stack.
+01:44:53,244  INFO Subtraction:16 - Trying to calculate into nsu.dasha.labs.command.Subtraction
+01:44:53,253  INFO Subtraction:21 - Trying to sub -15.0 and -2.0.
+01:44:53,253  INFO Context:29 - Pushed -13.0 into stack.
+01:46:44,659  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:46:44,666  INFO Subtraction:11 - The command nsu.dasha.labs.command.Subtraction was created.
+01:46:44,670  INFO Context:29 - Pushed 10.0 into stack.
+01:46:44,672  INFO Context:29 - Pushed -2.0 into stack.
+01:46:44,672  INFO Context:29 - Pushed -15.0 into stack.
+01:46:44,683  INFO Subtraction:16 - Trying to calculate into nsu.dasha.labs.command.Subtraction
+01:46:44,693  INFO Subtraction:21 - Trying to sub -15.0 and -2.0.
+01:46:44,694  INFO Context:29 - Pushed -13.0 into stack.
+01:46:44,697  INFO Subtraction:16 - Trying to calculate into nsu.dasha.labs.command.Subtraction
+01:46:44,699 ERROR Context:36 - Stack is empty. 
+java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at java.base/java.util.Stack.pop(Stack.java:83)
+	at nsu.dasha.labs.Context.popStackValue(Context.java:34)
+	at nsu.dasha.labs.command.Subtraction.calculate(Subtraction.java:19)
+	at CommandTests.lambda$testSub$9(CommandTests.java:76)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3168)
+	at CommandTests.testSub(CommandTests.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+01:47:21,585  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:47:21,590  INFO Subtraction:11 - The command nsu.dasha.labs.command.Subtraction was created.
+01:47:21,593  INFO Context:29 - Pushed 10.0 into stack.
+01:47:21,594  INFO Context:29 - Pushed -2.0 into stack.
+01:47:21,595  INFO Context:29 - Pushed -15.0 into stack.
+01:47:21,601  INFO Subtraction:16 - Trying to calculate into nsu.dasha.labs.command.Subtraction
+01:47:21,608  INFO Subtraction:21 - Trying to sub -15.0 and -2.0.
+01:47:21,609  INFO Context:29 - Pushed -13.0 into stack.
+01:47:21,611  INFO Subtraction:16 - Trying to calculate into nsu.dasha.labs.command.Subtraction
+01:47:21,612  INFO Subtraction:21 - Trying to sub -13.0 and 10.0.
+01:47:21,613  INFO Context:29 - Pushed -23.0 into stack.
+01:47:33,329  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:47:33,336  INFO Subtraction:11 - The command nsu.dasha.labs.command.Subtraction was created.
+01:47:33,340  INFO Context:29 - Pushed 10.0 into stack.
+01:47:33,341  INFO Context:29 - Pushed -2.0 into stack.
+01:47:33,341  INFO Context:29 - Pushed -15.0 into stack.
+01:47:33,350  INFO Subtraction:16 - Trying to calculate into nsu.dasha.labs.command.Subtraction
+01:47:33,356  INFO Subtraction:21 - Trying to sub -15.0 and -2.0.
+01:47:33,357  INFO Context:29 - Pushed -13.0 into stack.
+01:47:33,360  INFO Subtraction:16 - Trying to calculate into nsu.dasha.labs.command.Subtraction
+01:47:33,361  INFO Subtraction:21 - Trying to sub -13.0 and 10.0.
+01:47:33,361  INFO Context:29 - Pushed -23.0 into stack.
+01:49:19,385  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:49:19,392  INFO Multiply:11 - The command nsu.dasha.labs.command.Multiply was created.
+01:49:19,397  INFO Context:29 - Pushed -10.0 into stack.
+01:49:19,397  INFO Context:29 - Pushed -2.0 into stack.
+01:49:19,398  INFO Context:29 - Pushed -15.0 into stack.
+01:49:19,408  INFO Multiply:16 - Trying to calculate into nsu.dasha.labs.command.Multiply
+01:49:19,417  INFO Multiply:21 - Trying to multiply -15.0 and -2.0.
+01:49:19,418  INFO Context:29 - Pushed 30.0 into stack.
+01:49:19,421  INFO Multiply:16 - Trying to calculate into nsu.dasha.labs.command.Multiply
+01:49:19,422  INFO Multiply:21 - Trying to multiply 30.0 and -10.0.
+01:49:19,422  INFO Context:29 - Pushed -300.0 into stack.
+01:52:17,535  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:52:17,542  INFO Division:13 - The command nsu.dasha.labs.command.Division was created.
+01:52:17,546  INFO Context:29 - Pushed -10.0 into stack.
+01:52:17,546  INFO Context:29 - Pushed 3.0 into stack.
+01:52:17,547  INFO Context:29 - Pushed -15.0 into stack.
+01:52:17,554  INFO Division:18 - Trying to calculate into nsu.dasha.labs.command.Division
+01:52:17,564  INFO Division:28 - Trying to div -15.0 by 3.0.
+01:52:17,565  INFO Context:29 - Pushed -5.0 into stack.
+01:52:17,568  INFO Division:18 - Trying to calculate into nsu.dasha.labs.command.Division
+01:52:17,569  INFO Division:28 - Trying to div -5.0 by -10.0.
+01:52:17,569  INFO Context:29 - Pushed 0.5 into stack.
+01:52:28,002  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:52:28,010  INFO Division:13 - The command nsu.dasha.labs.command.Division was created.
+01:52:28,013  INFO Context:29 - Pushed -10.0 into stack.
+01:52:28,014  INFO Context:29 - Pushed 3.0 into stack.
+01:52:28,015  INFO Context:29 - Pushed -15.0 into stack.
+01:52:28,021  INFO Division:18 - Trying to calculate into nsu.dasha.labs.command.Division
+01:52:28,030  INFO Division:28 - Trying to div -15.0 by 3.0.
+01:52:28,031  INFO Context:29 - Pushed -5.0 into stack.
+01:52:28,034  INFO Division:18 - Trying to calculate into nsu.dasha.labs.command.Division
+01:52:28,035  INFO Division:28 - Trying to div -5.0 by -10.0.
+01:52:28,035  INFO Context:29 - Pushed 0.5 into stack.
+01:52:28,036  INFO Context:29 - Pushed 0.0 into stack.
+01:52:28,036  INFO Context:29 - Pushed 70.0 into stack.
+01:52:28,041  INFO Division:18 - Trying to calculate into nsu.dasha.labs.command.Division
+01:52:28,041 ERROR Division:24 - Trying to div by 0.
+01:53:42,990  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:53:42,997  INFO Add:11 - The command nsu.dasha.labs.command.Add was created.
+01:53:43,002  INFO Context:29 - Pushed 10.0 into stack.
+01:53:43,003  INFO Context:29 - Pushed -2.0 into stack.
+01:53:43,003  INFO Context:29 - Pushed -15.0 into stack.
+01:53:43,013  INFO Add:16 - Trying to calculate into nsu.dasha.labs.command.Add
+01:53:43,021  INFO Add:21 - Trying to add -15.0 and -2.0.
+01:53:43,022  INFO Context:29 - Pushed -17.0 into stack.
+01:53:43,025  INFO Add:16 - Trying to calculate into nsu.dasha.labs.command.Add
+01:53:43,026  INFO Add:21 - Trying to add -17.0 and 10.0.
+01:53:43,027  INFO Context:29 - Pushed -7.0 into stack.
+01:57:27,609  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:57:27,619  INFO Add:11 - The command nsu.dasha.labs.command.Add was created.
+01:57:27,624  INFO Context:29 - Pushed 10.0 into stack.
+01:57:27,625  INFO Context:29 - Pushed -2.0 into stack.
+01:57:27,626  INFO Context:29 - Pushed -15.0 into stack.
+01:57:27,661  INFO Add:16 - Trying to calculate into nsu.dasha.labs.command.Add
+01:57:27,672  INFO Add:21 - Trying to add -15.0 and -2.0.
+01:57:27,673  INFO Context:29 - Pushed -17.0 into stack.
+01:57:27,680  INFO Add:16 - Trying to calculate into nsu.dasha.labs.command.Add
+01:57:27,681  INFO Add:21 - Trying to add -17.0 and 10.0.
+01:57:27,682  INFO Context:29 - Pushed -7.0 into stack.
+01:57:27,707  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:57:27,708  INFO Division:13 - The command nsu.dasha.labs.command.Division was created.
+01:57:27,709  INFO Context:29 - Pushed -10.0 into stack.
+01:57:27,710  INFO Context:29 - Pushed 3.0 into stack.
+01:57:27,711  INFO Context:29 - Pushed -15.0 into stack.
+01:57:27,714  INFO Division:18 - Trying to calculate into nsu.dasha.labs.command.Division
+01:57:27,715  INFO Division:28 - Trying to div -15.0 by 3.0.
+01:57:27,716  INFO Context:29 - Pushed -5.0 into stack.
+01:57:27,717  INFO Division:18 - Trying to calculate into nsu.dasha.labs.command.Division
+01:57:27,718  INFO Division:28 - Trying to div -5.0 by -10.0.
+01:57:27,718  INFO Context:29 - Pushed 0.5 into stack.
+01:57:27,718  INFO Context:29 - Pushed 0.0 into stack.
+01:57:27,718  INFO Context:29 - Pushed 70.0 into stack.
+01:57:27,727  INFO Division:18 - Trying to calculate into nsu.dasha.labs.command.Division
+01:57:27,727 ERROR Division:24 - Trying to div by 0.
+01:57:27,733  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:57:27,735  INFO Multiply:11 - The command nsu.dasha.labs.command.Multiply was created.
+01:57:27,735  INFO Context:29 - Pushed -10.0 into stack.
+01:57:27,736  INFO Context:29 - Pushed -2.0 into stack.
+01:57:27,737  INFO Context:29 - Pushed -15.0 into stack.
+01:57:27,738  INFO Multiply:16 - Trying to calculate into nsu.dasha.labs.command.Multiply
+01:57:27,739  INFO Multiply:21 - Trying to multiply -15.0 and -2.0.
+01:57:27,740  INFO Context:29 - Pushed 30.0 into stack.
+01:57:27,741  INFO Multiply:16 - Trying to calculate into nsu.dasha.labs.command.Multiply
+01:57:27,742  INFO Multiply:21 - Trying to multiply 30.0 and -10.0.
+01:57:27,743  INFO Context:29 - Pushed -300.0 into stack.
+01:57:27,748  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:57:27,749  INFO Pop:11 - The command nsu.dasha.labs.command.Pop was created.
+01:57:27,751  INFO Pop:16 - Trying to calculate into nsu.dasha.labs.command.Pop
+01:57:27,752  INFO Pop:17 - Trying to popStackValue.
+01:57:27,755 ERROR Context:36 - Stack is empty. 
+java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at java.base/java.util.Stack.pop(Stack.java:83)
+	at nsu.dasha.labs.Context.popStackValue(Context.java:34)
+	at nsu.dasha.labs.command.Pop.calculate(Pop.java:19)
+	at CommandTests.lambda$testPop$2(CommandTests.java:34)
+	at org.junit.Assert.assertThrows(Assert.java:1001)
+	at org.junit.Assert.assertThrows(Assert.java:981)
+	at CommandTests.testPop(CommandTests.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+01:57:27,763  INFO Context:29 - Pushed 5.0 into stack.
+01:57:27,764  INFO Pop:16 - Trying to calculate into nsu.dasha.labs.command.Pop
+01:57:27,765  INFO Pop:17 - Trying to popStackValue.
+01:57:27,768 ERROR Context:36 - Stack is empty. 
+java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at java.base/java.util.Stack.pop(Stack.java:83)
+	at nsu.dasha.labs.Context.popStackValue(Context.java:34)
+	at org.junit.Assert.assertThrows(Assert.java:1001)
+	at org.junit.Assert.assertThrows(Assert.java:981)
+	at CommandTests.testPop(CommandTests.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+01:57:27,776  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:57:27,777  INFO Subtraction:11 - The command nsu.dasha.labs.command.Subtraction was created.
+01:57:27,778  INFO Context:29 - Pushed 10.0 into stack.
+01:57:27,779  INFO Context:29 - Pushed -2.0 into stack.
+01:57:27,779  INFO Context:29 - Pushed -15.0 into stack.
+01:57:27,781  INFO Subtraction:16 - Trying to calculate into nsu.dasha.labs.command.Subtraction
+01:57:27,782  INFO Subtraction:21 - Trying to sub -15.0 and -2.0.
+01:57:27,782  INFO Context:29 - Pushed -13.0 into stack.
+01:57:27,783  INFO Subtraction:16 - Trying to calculate into nsu.dasha.labs.command.Subtraction
+01:57:27,784  INFO Subtraction:21 - Trying to sub -13.0 and 10.0.
+01:57:27,785  INFO Context:29 - Pushed -23.0 into stack.
+01:57:27,789  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:57:27,790  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+01:57:27,791  INFO Context:29 - Pushed 5.0 into stack.
+01:57:27,795  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+01:57:27,795  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:57:27,798  INFO Context:49 - Put into map pair (a1, 5,000000).
+01:57:27,799  INFO Context:29 - Pushed 5.0 into stack.
+01:57:27,803  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:57:27,805  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+01:57:27,805  INFO Context:29 - Pushed -1.0 into stack.
+01:57:27,807  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+01:57:27,808  INFO Context:29 - Pushed 4.0 into stack.
+01:57:27,809  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+01:57:27,810  INFO Sqrt:25 - Trying to pushStackValue.
+01:57:27,810  INFO Context:29 - Pushed 2.0 into stack.
+01:57:27,817  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:57:27,817  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+01:57:27,818  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:57:27,819  INFO Context:49 - Put into map pair (a1, 5,000000).
+01:57:27,822  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:57:27,824  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+01:57:27,846  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:57:27,848  INFO Context:29 - Pushed 5.0 into stack.
+01:57:27,853 ERROR Context:36 - Stack is empty. 
+java.util.EmptyStackException
+	at java.base/java.util.Stack.peek(Stack.java:101)
+	at java.base/java.util.Stack.pop(Stack.java:83)
+	at nsu.dasha.labs.Context.popStackValue(Context.java:34)
+	at ContextTest.lambda$testPop$3(ContextTest.java:55)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at ContextTest.testPop(ContextTest.java:55)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:728)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:218)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:214)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:139)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:198)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:169)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:93)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:141)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:103)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:47)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:63)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+01:57:27,860  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:57:27,860  INFO Context:29 - Pushed 5.0 into stack.
+01:57:27,865  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:57:27,866  INFO Context:29 - Pushed 5.0 into stack.
+01:57:27,870  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+01:57:27,871  INFO Context:49 - Put into map pair (a, 2,000000).
+01:57:27,871  INFO Context:29 - Pushed 2.0 into stack.
+15:10:01,424  INFO Main:23 - Attempt to read file name
+15:10:03,129  INFO Main:26 - Read fileName: test
+15:10:03,163  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+15:10:03,167  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+15:10:03,167  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+15:10:03,171  INFO Context:49 - Put into map pair (a1, 4,000000).
+15:10:03,176  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+15:10:03,178  INFO Context:29 - Pushed 4.0 into stack.
+15:10:03,181  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+15:10:03,182  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+15:10:03,182  INFO Sqrt:25 - Trying to pushStackValue.
+15:10:03,182  INFO Context:29 - Pushed 2.0 into stack.
+15:10:03,184  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+15:10:03,185  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+15:10:03,185  INFO Print:17 - Trying to printLastInStack.
+15:12:34,071  INFO Main:23 - Attempt to read file name
+15:12:36,678  INFO Main:26 - Read fileName: test
+15:12:36,700  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+15:12:36,702  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+15:12:36,703  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+15:12:36,706  INFO Context:49 - Put into map pair (a1, 4,000000).
+15:12:36,710  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+15:12:36,712  INFO Context:29 - Pushed 4.0 into stack.
+15:12:36,715  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+15:12:36,715  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+15:12:36,715  INFO Sqrt:25 - Trying to pushStackValue.
+15:12:36,716  INFO Context:29 - Pushed 2.0 into stack.
+15:12:36,717  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+15:12:36,718  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+15:12:36,718  INFO Print:17 - Trying to printLastInStack.
+15:12:45,176  INFO Main:23 - Attempt to read file name
+15:13:14,882  INFO Main:23 - Attempt to read file name
+15:13:16,817  INFO Main:26 - Read fileName: tete
+15:13:16,831 ERROR Main:42 - FileNotFoundException
+15:13:32,932  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+15:13:32,934  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+15:13:32,935  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+15:13:32,940  INFO Context:49 - Put into map pair (a1, 2,000000).
+15:13:46,372  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+15:13:46,375  INFO Context:29 - Pushed 2.0 into stack.
+15:13:51,390  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+15:13:51,390  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+15:13:51,390  INFO Print:17 - Trying to printLastInStack.
+15:14:19,822  INFO Main:23 - Attempt to read file name
+15:14:21,748  INFO Main:26 - Read fileName: TETET
+15:14:21,759 ERROR Main:42 - FileNotFoundException
+15:14:27,387  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+15:14:27,391  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+15:14:27,391  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+15:14:27,400  INFO Context:49 - Put into map pair (a1, 4,000000).
+15:14:27,402  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+15:14:27,405  INFO Context:29 - Pushed 4.0 into stack.
+15:14:27,408  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+15:14:27,408  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+15:14:27,409  INFO Sqrt:25 - Trying to pushStackValue.
+15:14:27,409  INFO Context:29 - Pushed 2.0 into stack.
+15:14:27,862  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+15:14:27,863  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+15:14:27,863  INFO Print:17 - Trying to printLastInStack.
+15:15:33,395  INFO Main:23 - Attempt to read file name
+15:15:34,686  INFO Main:26 - Read fileName: trtr
+15:15:34,701 ERROR Main:42 - FileNotFoundException
+15:15:36,745  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+15:15:36,748  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+15:15:36,749  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+15:15:36,758  INFO Context:49 - Put into map pair (a1, 4,000000).
+15:15:36,761  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+15:15:36,764  INFO Context:29 - Pushed 4.0 into stack.
+15:15:36,769  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+15:15:36,770  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+15:15:36,770  INFO Sqrt:25 - Trying to pushStackValue.
+15:15:36,770  INFO Context:29 - Pushed 2.0 into stack.
+15:15:38,594  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+15:15:38,595  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+15:15:38,595  INFO Print:17 - Trying to printLastInStack.
+15:23:19,883  INFO Main:23 - Attempt to read file name
+15:23:21,817  INFO Main:26 - Read fileName: trtrt
+15:23:21,832 ERROR Main:42 - FileNotFoundException
+15:23:27,706  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+15:23:27,762  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+15:23:27,763  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+15:23:27,774  INFO Context:49 - Put into map pair (a1, 4,000000).
+15:23:27,778  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+15:23:27,780  INFO Context:29 - Pushed 4.0 into stack.
+15:23:27,811  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+15:23:27,811  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+15:23:27,812  INFO Sqrt:25 - Trying to pushStackValue.
+15:23:27,812  INFO Context:29 - Pushed 2.0 into stack.
+15:23:28,438  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+15:23:28,439  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+15:23:28,439  INFO Print:17 - Trying to printLastInStack.
+15:25:10,755  INFO Main:23 - Attempt to read file name
+15:25:12,345  INFO Main:26 - Read fileName: hfhf
+15:25:12,360 ERROR Main:42 - FileNotFoundException
+15:25:13,225  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+15:25:13,229  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+15:25:13,229  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+15:25:13,239  INFO Context:49 - Put into map pair (a1, 4,000000).
+15:25:13,241  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+15:25:13,245  INFO Context:29 - Pushed 4.0 into stack.
+15:25:13,248  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+15:25:13,249  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+15:25:13,249  INFO Sqrt:25 - Trying to pushStackValue.
+15:25:13,250  INFO Context:29 - Pushed 2.0 into stack.
+15:25:19,000  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+15:25:19,001  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+15:25:19,001  INFO Print:17 - Trying to printLastInStack.
+15:25:37,246  INFO Main:23 - Attempt to read file name
+15:25:38,547  INFO Main:26 - Read fileName: yryry
+15:25:38,560 ERROR Main:42 - FileNotFoundException
+15:25:39,865  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+15:25:39,868  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+15:25:39,868  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+15:25:39,880  INFO Context:49 - Put into map pair (a1, 4,000000).
+15:25:39,883  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+15:25:39,887  INFO Context:29 - Pushed 4.0 into stack.
+15:25:39,898  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+15:25:39,898  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+15:25:39,898  INFO Sqrt:25 - Trying to pushStackValue.
+15:25:39,899  INFO Context:29 - Pushed 2.0 into stack.
+15:25:45,789  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+15:25:45,789  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+15:25:45,789  INFO Print:17 - Trying to printLastInStack.
+15:26:39,705  INFO Main:23 - Attempt to read file name
+15:26:41,550  INFO Main:26 - Read fileName: test
+15:26:41,585  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+15:26:41,587  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+15:26:41,587  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+15:26:41,591  INFO Context:49 - Put into map pair (a1, 16,000000).
+15:26:41,594  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+15:26:41,597  INFO Context:29 - Pushed 16.0 into stack.
+15:26:41,599  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+15:26:41,599  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+15:26:41,600  INFO Sqrt:25 - Trying to pushStackValue.
+15:26:41,600  INFO Context:29 - Pushed 4.0 into stack.
+15:26:41,601  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+15:26:41,602  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+15:26:41,602  INFO Print:17 - Trying to printLastInStack.
+15:28:25,663  INFO Main:23 - Attempt to read file name
+15:28:27,892  INFO Main:26 - Read fileName: tyty
+15:28:27,906 ERROR Main:42 - FileNotFoundException
+15:28:29,644  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+15:28:29,648  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+15:28:29,648  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+15:28:29,657  INFO Context:49 - Put into map pair (a1, 4,000000).
+15:28:29,660  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+15:28:29,663  INFO Context:29 - Pushed 4.0 into stack.
+15:28:29,667  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+15:28:29,667  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+15:28:29,668  INFO Sqrt:25 - Trying to pushStackValue.
+15:28:29,668  INFO Context:29 - Pushed 2.0 into stack.
+15:28:30,641  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+15:28:30,641  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+15:28:30,642  INFO Print:17 - Trying to printLastInStack.
+15:32:56,246  INFO Main:23 - Attempt to read file name
+15:32:57,990  INFO Main:26 - Read fileName: yeyey
+15:32:58,001 ERROR Main:42 - FileNotFoundException
+15:32:58,001  INFO Main:43 - Use console.
+15:33:14,352  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+15:33:14,354  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+15:33:14,354  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+15:33:34,956  INFO Main:23 - Attempt to read file name
+15:33:36,826  INFO Main:26 - Read fileName: test
+15:33:36,851  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+15:33:36,853  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+15:33:36,853  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+15:33:36,853  INFO Main:64 - NotEnoughArgsException
+15:36:31,976  INFO Main:23 - Attempt to read file name
+15:36:33,331  INFO Main:26 - Read fileName: hdhd
+15:36:33,346 ERROR Main:42 - FileNotFoundException
+15:36:33,346  INFO Main:43 - Use console.
+15:36:39,992  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+15:36:39,994  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+15:36:39,994  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+15:36:39,997  INFO Main:59 - NotEnoughArgsException
+15:42:11,622  INFO Main:23 - Attempt to read file name
+15:42:19,216  INFO Main:26 - Read fileName: test
+15:42:19,230  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+15:42:19,236  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+15:42:19,236  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+15:42:19,237  INFO Main:73 - NotEnoughArgsException
+15:42:27,821  INFO Main:23 - Attempt to read file name
+15:42:30,245  INFO Main:26 - Read fileName: test
+15:42:30,260  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+15:42:30,267  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+15:42:30,268  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+15:42:30,271  INFO Context:49 - Put into map pair (a1, 4,000000).
+15:42:30,275  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+15:42:30,277  INFO Context:29 - Pushed 4.0 into stack.
+15:42:30,279  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+15:42:30,279  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+15:42:30,280  INFO Sqrt:25 - Trying to pushStackValue.
+15:42:30,280  INFO Context:29 - Pushed 2.0 into stack.
+15:42:30,281  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+15:42:30,282  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+15:42:30,282  INFO Print:17 - Trying to printLastInStack.
+15:43:20,346  INFO Main:23 - Attempt to read file name
+15:43:22,273  INFO Main:26 - Read fileName: test
+15:43:22,288  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+15:43:22,302  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+15:43:22,302  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+15:43:22,306  INFO Context:49 - Put into map pair (a1, -5,000000).
+15:43:22,310  INFO Push:14 - The command nsu.dasha.labs.command.Push was created.
+15:43:22,312  INFO Context:29 - Pushed -5.0 into stack.
+15:43:22,314  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+15:43:22,314  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+15:43:22,315  INFO Main:75 - ArithmeticException
+16:03:02,857  INFO Main:25 - Attempt to read file name
+16:03:05,630  INFO Main:28 - Read fileName: test
+16:03:05,669  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+16:03:05,694  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+16:03:05,694  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+16:03:05,697  INFO Context:49 - Put into map pair (a1, -5,000000).
+16:03:05,713  INFO Push:13 - The command nsu.dasha.labs.command.Push was created.
+16:03:05,715  INFO Context:29 - Pushed -5.0 into stack.
+16:03:05,718  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+16:03:05,718  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+16:03:05,718  INFO Main:71 - ArithmeticException
+16:03:43,122  INFO Main:25 - Attempt to read file name
+16:03:46,189  INFO Main:28 - Read fileName: test
+16:03:46,204  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+16:03:46,212  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+16:03:46,213  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+16:03:46,216  INFO Context:49 - Put into map pair (a1, 4,000000).
+16:03:46,220  INFO Push:13 - The command nsu.dasha.labs.command.Push was created.
+16:03:46,223  INFO Context:29 - Pushed 4.0 into stack.
+16:03:46,225  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+16:03:46,225  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+16:03:46,225  INFO Sqrt:25 - Trying to pushStackValue.
+16:03:46,225  INFO Context:29 - Pushed 2.0 into stack.
+16:03:46,227  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+16:03:46,228  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+16:03:46,228  INFO Print:17 - Trying to printLastInStack.
+16:04:00,188  INFO Main:25 - Attempt to read file name
+16:04:04,828  INFO Main:28 - Read fileName: ytytyt
+16:04:04,843  INFO Context:24 - The command nsu.dasha.labs.Context was created.
+16:04:04,846 ERROR Main:44 - FileNotFoundException
+16:04:04,846  INFO Main:45 - Use console.
+16:04:06,785  INFO Define:13 - The command nsu.dasha.labs.command.Define was created.
+16:04:06,786  INFO Define:18 - Trying to calculate into nsu.dasha.labs.command.Define
+16:04:06,797  INFO Context:49 - Put into map pair (a1, 4,000000).
+16:04:06,799  INFO Push:13 - The command nsu.dasha.labs.command.Push was created.
+16:04:06,803  INFO Context:29 - Pushed 4.0 into stack.
+16:04:06,807  INFO Sqrt:13 - The command nsu.dasha.labs.command.Sqrt was created.
+16:04:06,807  INFO Sqrt:18 - Trying to calculate into nsu.dasha.labs.command.Sqrt
+16:04:06,808  INFO Sqrt:25 - Trying to pushStackValue.
+16:04:06,808  INFO Context:29 - Pushed 2.0 into stack.
+16:04:08,504  INFO Print:11 - The command nsu.dasha.labs.command.Print was created.
+16:04:08,504  INFO Print:16 - Trying to calculate into nsu.dasha.labs.command.Print
+16:04:08,507  INFO Print:17 - Trying to printLastInStack.
