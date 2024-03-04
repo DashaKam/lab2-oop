@@ -1,4 +1,4 @@
-package nsu.dasha.labs.Reader;
+package nsu.dasha.labs.reader;
 import org.apache.log4j.Logger;
 
 import java.io.EOFException;

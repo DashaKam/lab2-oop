@@ -1,4 +1,4 @@
-package nsu.dasha.labs.Reader;
+package nsu.dasha.labs.reader;
 
 import java.io.EOFException;
 

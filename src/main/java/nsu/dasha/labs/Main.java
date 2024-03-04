@@ -1,8 +1,8 @@
 package nsu.dasha.labs;
 
 
-import nsu.dasha.labs.Reader.ReadFile;
-import nsu.dasha.labs.Reader.ReadFromConsole;
+import nsu.dasha.labs.reader.ReadFile;
+import nsu.dasha.labs.reader.ReadFromConsole;
 import nsu.dasha.labs.command.Command;
 import nsu.dasha.labs.command.CommandFactory;
 import nsu.dasha.labs.exception.ArithmeticException;
