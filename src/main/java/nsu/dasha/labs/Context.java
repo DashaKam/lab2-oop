@@ -15,6 +15,8 @@ public class Context {
     private final Stack<Double> values = new Stack<>();
     private final HashMap<String, Double> mapValues = new HashMap<>();
     private final PrintStream out;
+    private boolean exitFlag = false;
+
 
     private static final Logger logger = Logger.getLogger(Context.class.getName());
 
@@ -89,4 +91,11 @@ public class Context {
             throw new WrongNameException();
         }
     }
+    public void setExitFlag() {
+        exitFlag = true;
+    }
+    public boolean getExitFlag() {
+        return exitFlag;
+    }
+
 }

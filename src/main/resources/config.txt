@@ -1,0 +1,10 @@
++ nsu.dasha.labs.command.Add
+- nsu.dasha.labs.command.Subtraction
+* nsu.dasha.labs.command.Multiply
+/ nsu.dasha.labs.command.Division
+SQRT nsu.dasha.labs.command.Sqrt
+PUSH nsu.dasha.labs.command.Push
+POP nsu.dasha.labs.command.Pop
+PRINT nsu.dasha.labs.command.Print
+DEFINE nsu.dasha.labs.command.Define
+EXIT nsu.dasha.labs.command.Exit
